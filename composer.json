@@ -1,0 +1,22 @@
+{
+  "name" : "ypa/jigsaw-pdf-utils",
+  "description" : "PDF Utils for Jigsaw",
+  "version" : "1.0.0",
+  "type" : "package",
+  "require" : {
+    "ext-json" : "*"
+  },
+  "require-dev" : {},
+  "license" : "MIT",
+  "authors" : [
+    {
+      "name" : "Jos Koomen",
+      "email" : "jos@yourpersonalagency.nl"
+    }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "Ypa\\Jigsaw\\Pdf\\" : "src/"
+    }
+  }
+}
